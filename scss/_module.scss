@@ -1,0 +1,47 @@
+.carousel-inner img{
+    width:100%;
+    height:750px;
+
+}
+.list-group{
+    // width:50%;
+    margin-left:30%;
+}
+.but .btn 
+{
+
+    margin-left: 45%;
+    background-color:$blue;
+}
+
+@mixin func($var)
+{
+    width:$var;
+}
+.list-group{
+@include func(50%);
+
+}
+
+.jumbotron{
+    .btn{
+        background-color:$blue;
+    }
+
+}
+
+.container
+{
+    .row{
+    
+        .col{
+
+            .hr{
+                width: 60px;
+            }
+
+            
+        }
+    }
+    
+}
